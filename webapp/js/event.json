@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "name": "Winter Day Hike",
+      "link": "https://campusevents.uncc.edu/winter-day-hike",
+      "description": "Registration Deadline:Wednesday, November 28, 2018 - 5:00 PM"
+    },
+    {
+      "name": "Women's Basketball vs ECU",
+      "link": "https://campusevents.uncc.edu/womens-basketball-vs-ecu",
+      "description": "49er's Women's Basketball vs. ECU on Saturday, Dec. 1, at 4 p.m. in Halton Arena"
+    },
+    {
+      "name": "Workshop: Overcoming Test Anxiety",
+      "link": "https://campusevents.uncc.edu/workshop-overcoming-test-anxiety",
+      "description": "Monday, December 3, 2018 - 6:00 PM"
+    },
+    {
+      "name": "University Chorale",
+      "link": "https://campusevents.uncc.edu/university-chorale-0",
+      "description": "Monday, December 3, 2018 - 7:30 PM"
+    },
+    {
+      "name": "Workshop: Finding Your Motivation",
+      "link": "https://campusevents.uncc.edu/workshop-finding-your-motivation-7",
+      "description": "Tuesday, December 4, 2018 - 12:30 PM"
+    }
+
+  ]
+}

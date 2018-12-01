@@ -6,11 +6,39 @@
     <link rel="icon" href="images/head.png" />
     <title>About Us</title>
     <link type="text/css" rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Open+Sans" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
+    <div class="row">
+        <div class="column">
+            <h1 id="right">Sign Up</h1>
+        </div>
+        <div class="column2">
+            <h1 id="left">Log In</h1>
+        </div>
+    </div>
 
+    <form id="signupform" action="#" class="bodyCenter">
+        <input type="text" placeholder="First Name" size="25" id="firstname" required><br><br>
+
+        <input type="text" placeholder="Last Name" size="25" id="lastname" required><br><br>
+
+        <input type="email" placeholder="Email Address" size="25" id="email" required><br><br>
+
+        <input type="text" placeholder="Password" size="25" id="pass" required><br><br>
+
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <form id="loginform" action="#" class="bodyCenter">
+        <input type="email" placeholder="Email Address" size="25" id="email2" required><br><br>
+
+        <input type="text" placeholder="Password" size="25" id="pass2" required><br><br>
+
+        <a href="dash.html"><input type="submit" value="Submit" id="submit2"></a>
+    </form>
 </body>
 
 </html>
