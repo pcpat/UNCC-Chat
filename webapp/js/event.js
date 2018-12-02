@@ -1,12 +1,6 @@
 $(document).ready(function() {
-    $.getJSON("js/event.json", function(data) {
-        $("aside").empty();
-        $("aside").append("<h1>" + data.events[0].name + "</h1>");
-        $("aside").append("<a>" + data.events[0].link + "</a>");
-        $("aside").append("<p>" + data.events[0].description + "</p>");
-        $("aside").append("<h1>" + data.events[1].name + "</h1>");
-        $("aside").append("<a>" + data.events[1].link + "</a>");
-        $("aside").append("<p>" + data.events[1].description + "</p>");
+    $.getJSON("http://demo4166466.mockable.io/", function(data) {
+        $("#title").append("<a target='_blank' href='" + data.events[0].link + "'>" + "<h1>" + data.events[0].name + "</h1>" + "</a>");
+        $("#stuff").append("<h3>" + "Description: " + data.events[0].description + "</h3>");
     });
-
 });

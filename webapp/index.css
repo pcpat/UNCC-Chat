@@ -20,7 +20,12 @@ h1:hover {
 
 form {
     text-align: center;
-    padding-bottom: 30px;
+}
+
+#submit2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input[type=button], input[type=submit] {
@@ -44,7 +49,15 @@ input[type=submit]:hover {
 input[type=text], input[type=email] {
     width: 35%;
     padding: 12px 12px;
-    border: 2px solid #2A2B69;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type=password] {
+    width: 35%;
+    padding: 12px 12px;
+    border: 2px solid white;
     border-radius: 5px;
     background-color: white;
 }

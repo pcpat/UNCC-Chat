@@ -3,21 +3,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="images/head.png" />
+    <link rel="icon" href="images/head.png"/>
     <title>Personal</title>
-    <link type="text/css" rel="stylesheet" href="event.css">
+    <link type="text/css" rel="stylesheet" href="personal.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-<a href="dash.html">Click for Dashboard</a>
-<h1>Profile</h1>
-<a href="https://via.placeholder.com/150">Image</a>
+    <a href="dash.html"><img id="back" src="images/back.png"></a>
+    <h1>Profile</h1>
+    <center><img src="https://via.placeholder.com/150" alt="Placeholder Image"></center>
+    <br>
+    <center><form id="signupform" action="#" class="bodyCenter">
+        <input type="text" placeholder="Name" size="25" id="name" required><br><br>
 
+        <input type="email" placeholder="Major" size="25" id="major" required><br><br>
 
-<h3>Name:</h3>
-<h3>Email:</h3>
-<h3>Major:</h3>
-<h3>Description:</h3>
+        <input type="text" placeholder="Description" size="100" id="description" required><br><br>
 
-</body>
+        <input type="submit" value="Submit" id="submit"></center>
+    </form>
+
+    </body>
 </html>

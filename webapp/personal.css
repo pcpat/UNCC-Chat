@@ -3,9 +3,52 @@ body {
     width: 100%;
     background-color: #35506c;
     position: absolute;
+    color: white;
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+#back {
+    height: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+h3 {
+    color: white;
+}
+
+input[type=button], input[type=submit] {
+    background-color: #35506c;
+    border: 2px solid white;
+    padding: 14px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type=text], input[type=email] {
+    width: 35%;
+    padding: 12px 12px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+a {
+    color: white;
 }
